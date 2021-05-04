@@ -1,0 +1,117 @@
+﻿#Information {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+    #Information p {
+        font-family: 'Open Sans', sans-serif;
+        color: #8f8f8f;
+    }
+
+
+#CommentBoxID {
+    border: #E9967A solid 3px;
+    border-radius: 20px;
+    padding-top: 0.05rem;
+    padding-bottom: 1rem;
+}
+
+#CommentBoxID2 {
+    border: #E9967A solid 3px;
+    border-radius: 20px;
+    height: 2.85rem;
+}
+
+
+    #CommentBoxID img, #CommentBoxID2 img {
+        margin-top: 0.3rem;
+        border-radius: 50%;
+        margin-left: 0.3rem;
+    }
+
+#messageInput {
+    background-color: white;
+    border-radius: 1rem;
+    margin-left: 0rem;
+    height: 2.5rem;
+    resize: none;
+    width: 90%;
+    margin-top: 0.1rem;
+    font-size: 11px;
+}
+
+#CommentText {
+    background-color: white;
+    border-radius: 1rem;
+    margin-left: 0rem;
+    width: 90%;
+    margin-top: 0.1rem;
+    border: 1.5px solid #dddddd;
+    padding-left: 0.85rem;
+    padding-right: 0.85rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+    #CommentText p, #CommentText2 p {
+        font-size: 1rem;
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-bottom: -0.5rem;
+    }
+
+#AnotherCommentID {
+    margin-top: 0.3rem;
+}
+
+#WriteCommentID {
+    margin-top: 0.3rem;
+}
+
+.IconsEffects i {
+    font-size: 20px;
+    margin-left: 0.55rem;
+    color: #E9967A;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+    .IconsEffects i:hover {
+        color: #ff4266;
+        cursor: pointer;
+    }
+
+.ReplyComment {
+    margin-top: 0.2rem;
+    padding-left: 2.8rem;
+    padding-right: 0.01rem;
+}
+
+.BottomCorrect {
+    margin-bottom: -0.9rem;
+}
+
+#CommentText2 {
+    background-color: white;
+    border-radius: 1rem;
+    margin-left: 0rem;
+    width: 89.3%;
+    margin-top: 0.1rem;
+    border: 1.5px solid #dddddd;
+    padding-left: 0.85rem;
+    padding-right: 0.85rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+
+#exampleFormControlTextarea2 {
+    background-color: white;
+    font-size: 11px;
+    border-radius: 1rem;
+    margin-left: 0rem;
+    height: 2.5rem;
+    resize: none;
+    width: 89.3%;
+    margin-top: 0.1rem;
+}

@@ -1,0 +1,15 @@
+﻿@model ThemeViewModel
+
+@{
+    Layout = null;
+}
+
+<form method="post" asp-action="CreateTheme" asp-controller="Admin" id="CreateThemeId">
+    <h1 id="CreateThemeTitleId" class="text-uppercase text-center">Create Theme</h1>
+    <div class="mb-3 d-flex">
+        <input type="text" asp-for="Theme_type" class="form-control" id="CreateThemeInputId" placeholder="Name">
+    </div>
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <button type="submit" class="text-uppercase" id="ThemeCreateBTNId">Create</button>
+</form>
+

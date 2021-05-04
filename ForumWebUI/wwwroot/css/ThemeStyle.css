@@ -1,0 +1,69 @@
+﻿#CreatePostId {
+    border: #E9967A dashed 3px;
+    padding: 1rem 1rem 1rem 1rem;
+    margin-top: 2rem;
+    background-color: white;
+}
+
+
+#AddPostBTNId {
+    text-align: right;
+    margin-top: 1rem;
+}
+
+    #AddPostBTNId button {
+        border: 1px solid #E9967A;
+        color: #E9967A;
+    }
+
+        #AddPostBTNId button:hover {
+            background-color: #E9967A;
+            color: white;
+        }
+
+#PostTextAreaId {
+    height: 9.8rem;
+    resize: none;
+}
+
+#PostId {
+    margin-top: 1.5rem;
+    background-color: white;
+    border: solid #E9967A 3px;
+    border-radius: 20px;
+}
+
+.UserInfo img {
+    border-radius: 50%;
+    margin-top: 3px;
+}
+
+.UserInfo p {
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 0.25rem;
+}
+
+.ThemeLinkDiv a {
+    text-decoration: none;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+.ThemeLinkDiv {
+    margin-top: -0.5rem;
+}
+
+.PostDate {
+    font-style: italic;
+    color: gray;
+    margin-bottom: -0.5rem;
+}
+
+.Description a {
+    text-decoration: none;
+    color: black;
+}

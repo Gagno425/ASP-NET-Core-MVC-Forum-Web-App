@@ -1,0 +1,78 @@
+﻿.Grid {
+}
+
+
+#PostsSideId {
+    background-color: #f0f0f1;
+}
+
+#ThemesSideId {
+    background-color: #E9967A;
+}
+
+
+    #ThemesSideId ul {
+        list-style: none;
+    }
+
+    #ThemesSideId a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Mukta', sans-serif;
+        font-size: 1.3rem;
+        letter-spacing: 1px;
+    }
+
+
+    #ThemesSideId ul li {
+        border-bottom: 1px solid white;
+        margin-top: 1rem;
+        margin-left: -1.9rem;
+    }
+
+#SelectedThemeId a {
+    color: #E0E0E0;
+}
+
+
+
+#ThemesSideId li:hover {
+    border-bottom: 1px solid #E0E0E0;
+}
+
+        #ThemesSideId li:hover > a {
+            color: #E0E0E0;
+        }
+
+
+.UsualPageBTN {
+    margin-top: 1rem;
+    background-color: #E9967A;
+    border: none;
+    margin-right: 3px;
+    color:white;
+}
+
+
+    .UsualPageBTN:hover {
+        color: white;
+        filter: brightness(90%);
+    }
+
+.SelectedPageBTN {
+    margin-top: 1rem;
+    background-color: #E9967A;
+    filter: brightness(90%);
+    border: none;
+    margin-right: 3px;
+    color: white;
+}
+
+    .SelectedPageBTN:hover {
+        color: white;
+        filter: brightness(90%);
+    }
+
+    #PagesListId {
+        margin-bottom: 1rem;
+    }

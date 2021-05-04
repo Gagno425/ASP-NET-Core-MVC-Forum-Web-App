@@ -1,0 +1,91 @@
+﻿body {
+    background-color: #f0f0f1;
+}
+
+.Grid {
+    border: 1px solid red;
+}
+
+.GridHeight {
+    height: 100vh;
+}
+
+#AdminMenuBoxId {
+    background-color: #08c;
+}
+
+    #AdminMenuBoxId ul {
+        list-style: none;
+    }
+
+        #AdminMenuBoxId ul a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.3rem;
+            letter-spacing: 2px;
+        }
+
+        #AdminMenuBoxId ul li {
+            padding-top: 0.3rem;
+            padding-bottom: 0.3rem;
+            border-bottom: 1px solid white;
+            margin-left: -2rem;
+        }
+
+        #AdminMenuBoxId ul a:hover {
+            color: #3f3e3a;
+        }
+
+        #AdminMenuBoxId ul ul {
+            display: none;
+        }
+
+        #AdminMenuBoxId ul li:hover > ul {
+            display: block;
+        }
+
+.Sub-Menu {
+    margin-left: 1rem;
+}
+
+#ThemeId:hover {
+    border-bottom: none;
+}
+
+#UserId:hover {
+    border-bottom: none;
+}
+
+#ThemeId {
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    color: white;
+}
+
+#UserId {
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    color: white;
+}
+
+#SignOutId {
+    text-align: right;
+}
+
+    #SignOutId i {
+        font-size: 2rem;
+        color: #08c;
+        margin-top: 0.8rem;
+        margin-right: 0.5rem;
+    }
+
+        #SignOutId i:hover {
+            transition: 0.2s;
+            cursor: pointer;
+            color: #dc3545;
+        }
+
+#LogoutBTN {
+    border: none;
+    background-color: transparent;
+}

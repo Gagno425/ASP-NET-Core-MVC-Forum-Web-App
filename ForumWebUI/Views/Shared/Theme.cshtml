@@ -1,0 +1,23 @@
+﻿@model PostViewModel
+ 
+@{ 
+    Layout = null;
+}
+
+<div class="container-fluid" id="MainID">
+    <div class="row justify-content-center">
+        <div class="col-lg-12 col-md-10 col-xs-10 PostGrid" id="CreatePostId">
+            <form method="post" asp-action="AddPost">
+                <input type="hidden" value="@Model.ThemeId" asp-for="ThemeId" />
+                <input type="hidden" value="@Model.AuthorizeUser" asp-for="AuthorizeUser" />
+                <div class="form-group d-flex">
+                    <textarea class="form-control" placeholder="What's on your mind?" id="PostTextAreaId" asp-for="Description"></textarea>
+                </div>
+                <div id="AddPostBTNId">
+                    <button type="submit" class="btn btn-outline-secondary">Add Post</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+

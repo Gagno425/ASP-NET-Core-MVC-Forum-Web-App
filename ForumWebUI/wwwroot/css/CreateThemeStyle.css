@@ -1,0 +1,36 @@
+﻿#CreateThemeId {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 1.5rem;
+}
+
+#ThemeCreateBTNId {
+    background-color: #08c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.3rem;
+    padding-right: 0.7rem;
+    padding-left: 0.7rem;
+}
+
+#CreateThemeInputId {
+    border: 1px solid #919191;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 1.25rem;
+}
+
+#CreateThemeTitleId {
+    color: #08c;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+
+#ThemeCreateBTNId:hover {
+    filter: brightness(88%);
+    transition: 0.2s;
+}

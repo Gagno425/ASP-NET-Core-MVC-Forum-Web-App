@@ -1,0 +1,36 @@
+﻿@model List<ThemeViewModel>
+
+@{
+    Layout = null;
+}
+
+<h1 id="DeleteThemeTitleId" class="text-uppercase text-center text-danger">Delete Theme</h1>
+@if (Model.Count == 0)
+{
+    <p class="text-warning text-uppercase text-center fs-5 fw-bold">No Themes!</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr class="text-center text-uppercase">
+                <th scope="col">Theme</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                if (Model != null)
+                {
+                    foreach (var theme in Model)
+                    {
+                        <tr class="text-center text-uppercase">
+                            <td class="ThemeId">@theme.Theme_type</td>
+                            <td><a class="btn-sm btn btn-danger" asp-action="DeleteTheme" asp-controller="Admin" asp-route-id="@theme.Id">Delete</a></td>
+                        </tr>
+                    }
+                }
+            }
+        </tbody>
+    </table>
+}

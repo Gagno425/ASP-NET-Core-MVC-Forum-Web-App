@@ -1,0 +1,73 @@
+﻿body {
+    background-color: #f0f0f1;
+}
+
+#InnerLoginFormId h1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2.15rem;
+    line-height: 1.2;
+    color: #222;
+    letter-spacing: 0.4px;
+}
+
+#InnerLoginFormId img {
+    margin-left: 2rem;
+    margin-top: 3px;
+}
+
+#InnerLoginFormId p {
+    margin-top: -0.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 550;
+    font-size: 1.04rem;
+    margin-bottom: 3rem;
+    color: #222;
+}
+
+
+
+#LoginFormId {
+    background-color: white;
+}
+
+#InnerLoginFormId {
+    width: 90%;
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.ValueInputItem {
+    margin-bottom: 1rem;
+    width: 100%;
+    border: 1px solid #919191;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 1.05rem;
+}
+
+#LoginBTNId {
+    width: 50%;
+    background-color: #08c;
+    border: none;
+    color: white;
+    font-size: 1.04rem;
+    font-weight: 500;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+    #LoginBTNId:hover {
+        transition: 0.2s;
+        filter: brightness(88%);
+    }
+
+#ActionToRegisterId {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #646464;
+    margin-left: 1.8rem;
+    margin-top: 4px;
+    font-size: 1.04rem;
+    font-weight: 600;
+}

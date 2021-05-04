@@ -1,0 +1,31 @@
+﻿@model List<PostViewModel>
+
+@{
+    Layout = null;
+}
+
+@foreach (var post in Model)
+{
+    <div class="container-fluid" id="MainID">
+        <div class="row justify-content-center">
+            <div class="col-lg-12 col-md-10 col-xs-10 PostGrid Grid" id="PostId">
+                <div class="d-flex UserInfo">
+                    <img src="@post.User.ImgUrl" width="25" height="25">
+                    <p>@post.User.Username</p>
+                </div>
+                <div class="ThemeLinkDiv">
+                    <a href="#" class="text-uppercase">@post.Theme.Theme_type</a>
+                </div>
+                <p class="Description">
+                    <a asp-action="Index" asp-route-PostId="@post.Id">
+                        @post.Description
+                    </a>
+                </p>
+                <div class="PostDate">
+                    <p>@post.CreateDate</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+}

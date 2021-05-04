@@ -1,0 +1,22 @@
+﻿body {
+    background-color: #f0f0f1;
+}
+
+#ProfileImageId {
+    border-radius: 50%;
+}
+
+
+
+#NavBarId {
+    background-color: #E9967A;
+}
+
+#ForumLogoId {
+    color: white;
+}
+
+#DropDownBTNId {
+    border: none;
+    background-color: transparent;
+}
